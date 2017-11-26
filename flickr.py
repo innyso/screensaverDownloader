@@ -32,7 +32,7 @@ print("running flickr downloader")
 flickrClient = flickr.FlickrAPI(api_key, api_secret, format='parsed-json')
 photos = flickrClient.photos.search(
         user_id=user_id,
-        per_page='50',
+        per_page='500',
         tags=['screensaver'],
         extras=['url_o'])
 
