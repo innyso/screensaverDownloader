@@ -8,3 +8,5 @@ The purpose of this screensaver downloader is to go to a flickr account and down
 * you will need to have python3 installed
 * I use pipenv, checkout out [this tutorial](https://docs.pipenv.org/) for how to use it
 
+# example
+./flickr.py --apikey=<ur flickr api key>  --apisecret=<ur flickr api secret>  --outputdir=<output to> --userid=<ur flickr userid>
